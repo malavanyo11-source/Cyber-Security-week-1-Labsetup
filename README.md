@@ -4,3 +4,7 @@ This repository contains my cybersecurity lab environment created as part of my 
 The goal of this setup was to build a controlled, isolated virtual network for practicing ethical hacking, network scanning, and penetration testing techniques.
 All virtual machines were configured inside VirtualBox, connected through a NAT Network with the subnet 10.0.0.0/24.
 Screenshots of the setup and verification steps are included in the Screenshots folder.
+Author
+Michael Tetteh  
+Cybersecurity Student & Practitioner
+LinkedIn: www.linkedin.com/in/michael-tetteh-602721322
