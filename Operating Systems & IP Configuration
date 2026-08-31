@@ -1,1 +1,31 @@
-
+1. Kali Linux (Attacker Machine)
+Role: Attacker / Penetration Testing
+IP Address: 10.0.0.2
+Subnet: /24
+Gateway: 10.0.0.1
+Notes: Used for scanning, enumeration, and offensive security tasks.
+2. Windows 10
+Role: Target Machine
+IP Address: 10.0.0.10
+Subnet: /24
+Gateway: 10.0.0.1
+Notes: Used for service enumeration, OS fingerprinting, and host discovery.
+3. Windows 11
+Role: Target Machine
+IP Address: 10.0.0.11
+Subnet: /24
+Gateway: 10.0.0.1
+Notes: Used for modern OS testing and network interaction.
+4. Android 9 (Android‑x86)
+Role: Mobile OS Target
+IP Address: 10.0.0.9
+Subnet: /24
+Gateway: 10.0.0.1
+Notes: Used to simulate mobile device behavior inside the network.
+Shared Folder Configuration
+All VMs were connected to a common shared folder, allowing easy file transfer between:
+Kali Linux
+Windows 10
+Windows 11
+Android 9
+This made it possible to move scripts, tools, and test files across machines without external networking.
